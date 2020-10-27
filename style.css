@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+  position: fixed;
+    bottom: 0;
+    right: 0; 
+   
+     
+   }
+ .menu,.lista, a{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(4, 4, 99);
+    word-spacing: 60px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns:600px auto 205px;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(6, 6, 88);
+
+   
+}
+.logo{
+    margin-top: 3px;
+    margin-bottom: 0px;
+  margin-right: 20px;
+    grid-column-start: 3;   
+    grid-row: 1; 
+   
+        
+}
+img{
+   
+    width: 200px;
+    height:50px;
+}
+nav{
+    padding: 13px;  
+}
+header > h1{    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;    
+}
+article{  
+    width: 100%;
+    height: 100%;
+}
+article > img{
+  width: 100%;
+   height: 100%;  
+}
+body>.container, body> .logo{
+    width: 100%;
+    height: 100%;
+}
+
+.endereco{
+    display: none;
+}
+article > img:first-child{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    
+    .localizacao{
+        display: none;
+    }
+    .endereco{
+        display: block;
+    }
+    article > img:last-child{
+        display: none;
+    }
+article > img:first-child{
+    display: block;
+}
+   
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,td{
+    padding: 10px;
+}
+thead tr{
+    background-color: rgb(6, 6, 88);
+    color: white;
+}
+tbody tr:hover{
+    background-color: rgb(6, 6, 88);
+    color: white;
+}
+
+td{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+tfoot{
+    background-color: rgb(6, 6, 88);
+    color: white;
+}
+fieldset > p, article > h2, legend,option {
+    font-family: 'Pacifico', cursive;
+}
+article > h2{
+    text-align: center;
+}
+.servicos{
+    font-family: 'Pacifico', cursive;
+       
+}
+nav{
+    width: 100%;
+}
+.enviar, .limpar{
+   color:  rgb(6, 6, 88);
+   font-family: 'Pacifico', cursive;
+}
+.enviar:hover, .limpar:hover{
+    background-color: rgb(94, 92, 92);
+}
